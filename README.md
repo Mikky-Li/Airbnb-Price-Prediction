@@ -1,90 +1,15 @@
-# Welcome to GitHub
+# Predicting Airbnb Price in Hong Kong Using Machine Learning and Deep Learning Models
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+Founded in 2008, Airbnb expanded significantly in the past 10 years with $35 Billion market value and annual $2.6 Billion revenue in 2017. Airbnb now has over four million listings in 65,000 cities across 191 countries. 
+Hong Kong, a special administrative region locates in the southern China, is a world financial hub and alpha+ world city. Tourism in Hong Kong is very developed with tourists from various countries. One interesting fact about Hong Kong is that the hotel price in Hong Kong is extremely high due to the fact that general price is very high in Hong Kong. So many travelers consider using Airbnb when visiting Hong Kong. The density of Airbnb in Hong Kong is very high with more than 10000 Airbnb places in such a small area. So, Airbnb competition is in a very high level in Hong Kong. Therefore, it is important to provide right price for Airbnb hosts in order to win in the competition.
 
-## Repositories
+## Related Works
 
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
+The project is inspired by a project named Predicting Airbnb Prices with Machine Learning and Deep Learning from Laura Lewis. The project can be found in GitHub (https://github.com/L-Lewis/Airbnb-neural-network-price-prediction) and Toward Data Science (https://towardsdatascience.com/predicting-airbnb-prices-with-machine-learning-and-deep-learning-f46d44afb8a6). Laura used both XGBoost (Machine Learning) and Neural Network (Deep Learning) and found that XGBoost is better when predicting the price with 73% R-Square. According to the model, the most important feature is how many people the property accommodates.
+Modelling Airbnb prices in London using different Machine Learning models (Random Forest, Gradient Boosting, Neural Network), a research project done by Caroline Barret, also used machine learning to predict Airbnb price. The project could be found in GitHub (https://github.com/CarolineBarret/Modelling-Airbnb-Prices). The researcher used random forest model, gradient boosting and neural network to predict the price. Models could be measured by Median Absolute Error and Mean Squared Error. Random Forest and XGBoost gave the best results on the testing set.
+Another research Exploring & Machine Learning for Airbnb Listings in Toronto (https://towardsdatascience.com/exploring-machine-learning-for-airbnb-listings-in-toronto-efdbdeba2644) done by Susan Li predicted the Airbnb price in Toronto. Susan used Random Forest Regressor model and LightGBM to predict price and use RMSE and R-square to test the efficiency of the model. Based on the result of RMSE and R-Square, researchers choose LightGBM model as the best model which explains 62.4% of the variability in listing price.
 
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
+## Methodology
 
-## Describe your project
+The process of this project includes data cleansing, data pre-processing, data visualization (Exploratory Data Analysis), data splitting (Training, Validation and Prediction) and modeling (Including but not limited to Random forest model, XGBoost model and Neural Network model). Based on the key metrics (RMSE, MAE, R-Square) comparison, I will be able to choose the best model for prediction.
 
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
-
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
-
-## Your first website
-
-**GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, the steps to launch a GitHub Pages website will be slightly different.
-
-[Learn more about GitHub Pages](https://pages.github.com/)
-
-## Rename this repository to publish your site
-
-We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
-
-Let's get started! To update this repository’s name, click the `Settings` tab on this page. This will take you to your repository’s settings page. 
-
-![repo-settings-image](https://user-images.githubusercontent.com/18093541/63130482-99e6ad80-bf88-11e9-99a1-d3cf1660b47e.png)
-
-Under the **Repository Name** heading, type: `username.github.io`, where username is your username on GitHub. Then click **Rename**—and that’s it. When you’re done, click your repository name or browser’s back button to return to this page.
-
-<img width="1039" alt="rename_screenshot" src="https://user-images.githubusercontent.com/18093541/63129466-956cc580-bf85-11e9-92d8-b028dd483fa5.png">
-
-Once you click **Rename**, your website will automatically be published at: https://your-username.github.io/. The HTML file—called `index.html`—is rendered as the home page and you'll be making changes to this file in the next step.
-
-Congratulations! You just launched your first GitHub Pages website. It's now live to share with the entire world
-
-## Making your first edit
-
-When you make any change to any file in your project, you’re making a **commit**. If you fix a typo, update a filename, or edit your code, you can add it to GitHub as a commit. Your commits represent your project’s entire history—and they’re all saved in your project’s repository.
-
-With each commit, you have the opportunity to write a **commit message**, a short, meaningful comment describing the change you’re making to a file. So you always know exactly what changed, no matter when you return to a commit.
-
-## Practice: Customize your first GitHub website by writing HTML code
-
-Want to edit the site you just published? Let’s practice commits by introducing yourself in your `index.html` file. Don’t worry about getting it right the first time—you can always build on your introduction later.
-
-Let’s start with this template:
-
-```
-<p>Hello World! I’m [username]. This is my website!</p>
-```
-
-To add your introduction, copy our template and click the edit pencil icon at the top right hand corner of the `index.html` file.
-
-<img width="997" alt="edit-this-file" src="https://user-images.githubusercontent.com/18093541/63131820-0794d880-bf8d-11e9-8b3d-c096355e9389.png">
-
-
-Delete this placeholder line:
-
-```
-<p>Welcome to your first GitHub Pages website!</p>
-```
-
-Then, paste the template to line 15 and fill in the blanks.
-
-<img width="1032" alt="edit-githuboctocat-index" src="https://user-images.githubusercontent.com/18093541/63132339-c3a2d300-bf8e-11e9-8222-59c2702f6c42.png">
-
-
-When you’re done, scroll down to the `Commit changes` section near the bottom of the edit page. Add a short message explaining your change, like "Add my introduction", then click `Commit changes`.
-
-
-<img width="1030" alt="add-my-username" src="https://user-images.githubusercontent.com/18093541/63131801-efbd5480-bf8c-11e9-9806-89273f027d16.png">
-
-Once you click `Commit changes`, your changes will automatically be published on your GitHub Pages website. Refresh the page to see your new changes live in action.
-
-:tada: You just made your first commit! :tada:
-
-## Extra Credit: Keep on building!
-
-Change the placeholder Octocat gif on your GitHub Pages website by [creating your own personal Octocat emoji](https://myoctocat.com/build-your-octocat/) or [choose a different Octocat gif from our logo library here](https://octodex.github.com/). Add that image to line 12 of your `index.html` file, in place of the `<img src=` link.
-
-Want to add even more code and fun styles to your GitHub Pages website? [Follow these instructions](https://github.com/github/personal-website) to build a fully-fledged static website.
-
-![octocat](./images/create-octocat.png)
-
-## Everything you need to know about GitHub
-
-Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching [GitHub Help](https://help.github.com). Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
