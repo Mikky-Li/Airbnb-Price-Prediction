@@ -1,4 +1,4 @@
-# Predicting Airbnb Price in Hong Kong Using Machine Learning and Deep Learning Models
+# Predicting Airbnb Price in Hong Kong Using Machine Learning Models
 
 Founded in 2008, Airbnb expanded significantly in the past 10 years with $35 Billion market value and annual $2.6 Billion revenue in 2017. Airbnb now has over four million listings in 65,000 cities across 191 countries. 
 Hong Kong, a special administrative region locates in the southern China, is a world financial hub and alpha+ world city. Tourism in Hong Kong is very developed with tourists from various countries. One interesting fact about Hong Kong is that the hotel price in Hong Kong is extremely high due to the fact that general price is very high in Hong Kong. So many travelers consider using Airbnb when visiting Hong Kong. The density of Airbnb in Hong Kong is very high with more than 10000 Airbnb places in such a small area. So, Airbnb competition is in a very high level in Hong Kong. Therefore, it is important to provide right price for Airbnb hosts in order to win in the competition.
@@ -11,5 +11,5 @@ Another research Exploring & Machine Learning for Airbnb Listings in Toronto (ht
 
 ## Methodology
 
-The process of this project includes data cleansing, data pre-processing, data visualization (Exploratory Data Analysis), data splitting (Training, Validation and Prediction) and modeling (Including but not limited to Random forest model, XGBoost model and Neural Network model). Based on the key metrics (RMSE, MAE, R-Square) comparison, I will be able to choose the best model for prediction.
+The process of this project includes data cleansing, data pre-processing, data visualization (Exploratory Data Analysis), data splitting (Training, Validation and Prediction) and modeling (Regression Tree, Random forest model and XGBoost model). Based on the key metrics (RMSE, MAE, R-Square) comparison, I will be able to choose the best model for prediction.
 
