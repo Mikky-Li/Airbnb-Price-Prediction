@@ -1,5 +1,5 @@
 
-# Data Programming with R Final Project – Predicting Airbnb Price in HongKong using Regression Tree, Random Forest and Boost
+# Data Programming with R Final Project –- Predicting Airbnb Price in HongKong using Regression Tree, Random Forest and Boost
 
 *By Zidong Li*
 
