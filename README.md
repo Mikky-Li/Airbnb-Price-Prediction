@@ -12,4 +12,4 @@ Another research Exploring & Machine Learning for Airbnb Listings in Toronto (ht
 ## Methodology
 
 The process of this project includes data cleansing, data pre-processing, data visualization (Exploratory Data Analysis), data splitting (Training, Validation and Prediction) and modeling (Regression Tree, Random forest model and XGBoost model). Based on the key metrics (RMSE, MAE, R-Square) comparison, I will be able to choose the best model for prediction.
-
+I used both R and Python to do the whole process. Please check
